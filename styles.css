@@ -1,0 +1,48 @@
+﻿
+.containe {
+    max-width: 100%;
+    max-height: 50%;
+    opacity: 0.95;
+    margin: 30px auto;
+    padding: 30px;
+   
+}
+.slider {
+    border-radius: 20% 20% 10% 10%;
+    
+    max-width: 75%;
+    margin: 20px auto;
+    overflow: hidden;
+    margin-bottom: 1%;
+
+}
+
+.slider-line {
+  
+    margin-top: 5%;
+    background-image: url(page/homm.png);
+    width: 1024px;
+    display: flex;
+    background: orange;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+
+}
+
+
+button {
+    border-radius: 50%;
+    background-color: #A69B9B;
+    padding: 10px 20px 0px 30px;
+    text-align: center;
+}
+
+
+
+
+#sldiv {
+    
+    display: inline;
+
+}

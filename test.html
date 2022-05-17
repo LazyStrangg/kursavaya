@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ItGid.info - адаптивный слайдер</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./test.css">
+</head>
+
+<body>
+
+
+    <script type="text/javascript">
+        var clicks = 1;
+        function onClick() {
+            clicks += 1;
+            document.getElementById("clicks").innerHTML = clicks;
+        };
+
+        function onClic() {
+            if (clicks > 1) {
+                clicks -= 1;
+                document.getElementById("clicks").innerHTML = clicks;
+            }
+        };
+
+        var clicks = 0;
+        function onCli() {
+            clicks += 1;
+            document.getElementById("deti").innerHTML = clicks;
+        };
+
+        function onCl() {
+            if (clicks > 0) {
+                clicks -= 1;
+                document.getElementById("deti").innerHTML = clicks;
+            }
+        };
+
+        var clicks = 0;
+        function onC() {
+            clicks += 1;
+            document.getElementById("zhiv").innerHTML = clicks;
+        };
+
+        function on() {
+            if (clicks > 0) {
+                clicks -= 1;
+                document.getElementById("zhiv").innerHTML = clicks;
+            }
+        };
+
+        function otpr() {
+
+            alert("бронирование прошло успешно");
+        };
+    </script>
+
+
+
+    <div class="container">
+        <form>
+            <ul class="flex-outer">
+                <li>
+
+
+
+
+                    <label for="first-name">кол-во живоьных </label>
+
+                    <button type="button" onClick="onClick()">+</button>
+
+                    <a id="clicks">1</a>
+                    <button type="button" onClick="onClic()">-</button>
+
+                   
+
+
+                </li>
+                <li>
+                    <label for="first-name">кол-во живоьных </label>
+                    <button type="button" onClick="onCli()">+</button>
+
+                    <a id="deti">0</a>
+                    <button type="button" onClick="onCl()">-</button>
+                </li>
+                <li>
+                    <label for="first-name">кол-во живоьных </label>
+                    <button type="button" onClick="onC()">+</button>
+                    <a id="zhiv">0</a>
+                    <button type="button" onClick="on()">-</button>
+
+                </li>
+                <li>
+
+
+
+
+                    <label for="phone">дата отправления</label>
+                    <input type="date" id="input">
+
+                </li>
+                <li>
+                    <label for="phone">дата отправления</label>
+                    <input type="date" id="input">
+                </li>
+                <li>
+                    <p></p>
+                    <ul class="flex-inner">
+                        <li>
+                            <button type="button" onclick="otpr()">забронировать</button>
+                        </li>
+                      
+                    </ul>
+                </li>
+               
+            </ul>
+        </form>
+    </div>
+</body>
+
+</html>
