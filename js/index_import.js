@@ -14,9 +14,10 @@ $.get('https://raw.githubusercontent.com/LazyStrangg/kursavaya/master/xml/data.x
       )
       $(data).find("apartment".each(
           function (index, elemtnt) {
-              let ops = $(element)
-              let opd = document.getElementById("pagege")
-              opsd.ops.find("description").text()
+              let ops = $(element).document.getElementById("pagege").text()
+             // let opd = document.getElementById("pagege")
+             // ops.find("description").text()
+
 		  }
       ))
   })
