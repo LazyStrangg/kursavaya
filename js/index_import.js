@@ -12,14 +12,7 @@ $.get('https://raw.githubusercontent.com/LazyStrangg/kursavaya/master/xml/data.x
               alert(field.find("description").text())
         }
       )
-      $(data).find("apartment".each(
-          function (index, elemtnt) {
-              let ops = $(element).document.getElementById("pagege").text()
-             // let opd = document.getElementById("pagege")
-             // ops.find("description").text()
-
-		  }
-      ))
+    
   })
   .fail(function(){
     alert('Check internet connection!');
