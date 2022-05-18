@@ -2,14 +2,7 @@
 <apartments>
 	<apartmant>
 		<description>добро пожаловать на сайт COMFORT</description>
-		<image>https://langformula.ru/wp-content/uploads/2019/04/house.jpg</image>
+		
 	</apartmant>
-	<apartmant>
-		<description>дома</description>
-		<image>https://langformula.ru/wp-content/uploads/2019/04/house.jpg</image>
-	</apartmant>
-	<apartmant>
-		<description>домы</description>
-		<image>https://langformula.ru/wp-content/uploads/2019/04/house.jpg</image>
-	</apartmant>
+	
 </apartments>
