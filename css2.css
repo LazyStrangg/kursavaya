@@ -414,3 +414,16 @@ input[type=checkbox], label {
     #simg:hover {
         transform: scale(1.2);
     }
+
+    #butt{}
+#butn {}
+
+        .active {
+            background-color:lightgreen;
+            color: green;
+           
+        }
+.act {
+    background-color: palevioletred;
+    color:darkred;
+}
