@@ -3,6 +3,7 @@
     background-color: #D3D3D3;
     background-image: url(page/hommnnnn.png);
     padding: 50px 0;
+    font-family: sans-serif;
 }
 
 .fonn {
@@ -214,6 +215,9 @@ input[type=checkbox], label {
 
 
 
+.mennu:hover {
+    color: #CAA2A2;
+}
 
 
 
